@@ -166,6 +166,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="product.aspx" />
     <Content Include="review.aspx" />
@@ -218,6 +219,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbbonementClass.cs" />
     <Compile Include="account.aspx.cs">
       <DependentUpon>account.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -232,6 +234,7 @@
     <Compile Include="accountAanmaken.aspx.designer.cs">
       <DependentUpon>accountAanmaken.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AccountClass.cs" />
     <Compile Include="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -267,6 +270,8 @@
     <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdministratieClass.cs" />
+    <Compile Include="AdresClass.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -277,6 +282,8 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Categorie.cs" />
+    <Compile Include="CommentaarClass.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -284,6 +291,7 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Databasemanager.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,6 +299,8 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GeregistreerdeClass.cs" />
+    <Compile Include="Geslacht.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -309,6 +319,7 @@
       <DependentUpon>main.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Modstatus.cs" />
     <Compile Include="product.aspx.cs">
       <DependentUpon>product.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -316,7 +327,7 @@
     <Compile Include="product.aspx.designer.cs">
       <DependentUpon>product.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Product.cs" />
+    <Compile Include="ProductClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="review.aspx.cs">
       <DependentUpon>review.aspx</DependentUpon>
@@ -325,6 +336,7 @@
     <Compile Include="review.aspx.designer.cs">
       <DependentUpon>review.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ReviewClass.cs" />
     <Compile Include="reviewMaken.aspx.cs">
       <DependentUpon>reviewMaken.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -354,6 +366,7 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="WerknemerClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="individueleOpdracht.About" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>About.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.account" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KQSAIAAEAAAIAAAUgAAAAAAAIQNgAAAACAQAQAsCAAA=</HashCode>
+      <FileName>account.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.accountAanmaken" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQABIAAAAAIAACACAADJwCBCIAAgIAAEAAAAJgIEAAA=</HashCode>
+      <FileName>accountAanmaken.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.BundleConfig" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.RouteConfig" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Startup" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Contact" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Contact.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht._Default" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Global" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.logIn" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAJAAAAAAEAAAAAAIAAAAAAEAAAAIAIAAAA=</HashCode>
+      <FileName>logIn.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.main" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAIAAAAAAAAAAAAAAAQAAAAIBABAAAAAAAAAQIAAAA=</HashCode>
+      <FileName>main.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.IdentityHelper" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAACAAAAAAQAABAAAAAAAAAAAIAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.product" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGAAoAAAAAAAACABgAYAAAABAACAAAAQIAAAA=</HashCode>
+      <FileName>product.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Product" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIARAACAAAACAAAAAABgAgACQAIAAgAAAAAAAAAAE=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.review" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAIAACAAgAAAAAAAIAAAA=</HashCode>
+      <FileName>review.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.reviewMaken" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAgAAABAgAAAAAIAAAAAIAAAAAAAIAAAA=</HashCode>
+      <FileName>reviewMaken.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.SiteMaster" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQKBAAAAIAAEAAABAAAAAAIAAAA=</HashCode>
+      <FileName>Site.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Site_Mobile" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAACAAAAAIAAAIAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Site.Mobile.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.ViewSwitcher" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAIA=</HashCode>
+      <FileName>ViewSwitcher.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Account.Login" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAAACAAAAAAAAAAAAQAAAAABACAQAAAAIgAAA=</HashCode>
+      <FileName>Account\Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Account.Manage" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAhAAABGACQAQAAANABAAAAAAAAAAAABAABAgIkAIA=</HashCode>
+      <FileName>Account\Manage.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Account.OpenAuthProviders" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAACAAAAAAAIAAAIAAAA=</HashCode>
+      <FileName>Account\OpenAuthProviders.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Account.Register" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAIAAAAAAAAAAAAAAACAQAAAAAAIAA=</HashCode>
+      <FileName>Account\Register.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Account.RegisterExternalLogin" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIACAAAAACAAAAAAAAAAAAMwAAA=</HashCode>
+      <FileName>Account\RegisterExternalLogin.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Models.ApplicationUser" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Models.ApplicationDbContext" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="individueleOpdracht.Models.UserManager" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="individueleOpdracht.Categorie">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Categorie.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="individueleOpdracht.Modstatus">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modstatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="individueleOpdracht.Geslacht">
+    <Position X="10.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Geslacht.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="individueleOpdracht.Abbonement">
+    <Position X="10.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Abbonement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

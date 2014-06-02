@@ -11,7 +11,8 @@ namespace individueleOpdracht
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //string display = "Message Pop-up!";
+            //ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + display + "');", true);
         }
     }
 }
