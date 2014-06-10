@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
-    <title>Social Media Event - Inchecken</title>
+    <title>Tweakers</title>
     <script src="jquery.js" type="text/javascript"></script>
     <link href="StyleSheetOntOpdracht.css" rel="stylesheet" type="text/css" />
 </head>
@@ -28,16 +28,16 @@
                 <asp:RequiredFieldValidator ID="ReqFldValWW" runat="server" ErrorMessage="WachtwoordIncorrect." ControlToValidate="TxtBxWW" ValidationGroup="inlog" Display="Dynamic" CssClass="validationMakeUp">Vul een wachtwoord in.</asp:RequiredFieldValidator>
                 <asp:RequiredFieldValidator ID="ReqFldValEmail" runat="server" ErrorMessage="E-mailIncorrect" ControlToValidate="TxtBxEmail" ValidationGroup="inlog" Display="Dynamic" CssClass="validationMakeUp">Vul je e-mail in.</asp:RequiredFieldValidator>
 
-                <asp:Button ID="BttnLogIn" runat="server" Text="Log in" Height="25px" ValidationGroup="inlog"/>
+                <asp:Button ID="BttnLogIn" runat="server" Text="Log in" Height="25px" ValidationGroup="inlog" OnClick="BttnLogIn_Click"/>
                 
-                <asp:Button ID="BttnCanc" runat="server" style="width: 131px; " Text="Cancel" />
-                <asp:Button ID="BttnAanmAcc" runat="server" style="width: 131px" Text="Account aanmaken" />
+                <asp:Button ID="BttnCanc" runat="server" style="width: 131px; " Text="Cancel" OnClick="BttnCanc_Click" />
+                <asp:Button ID="BttnAanmAcc" runat="server" style="width: 131px" Text="Account aanmaken" OnClick="BttnAanmAcc_Click" />
                 
             </div>
         </div>
 
         <div id="lowerBlock">
-            <div id="copyright"><h3>Copywrite 2014</h3></div>
+            <div id="copyright"><h3>Copyright 2014</h3></div>
         </div>
 
     </form>

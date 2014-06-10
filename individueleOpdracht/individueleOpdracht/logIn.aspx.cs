@@ -11,8 +11,39 @@ namespace individueleOpdracht
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //string display = "Message Pop-up!";
-            //ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + display + "');", true);
+            
+        }
+
+        protected void BttnLogIn_Click(object sender, EventArgs e)
+        {
+            string email = TxtBxEmail.Text;
+            string wachtwoord = TxtBxWW.Text;
+
+            AdministratieClass administratie = new AdministratieClass();
+            string account = string.Empty;
+            
+            try
+            {
+                Session["accountType"] = administratie.Inloggen(email, wachtwoord);
+                Session["administratie"] = administratie;
+            }
+            catch
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + "Email en/of wachtwoord is incorrect" + "');", true);
+                return;
+            }
+
+            Server.Transfer("main.aspx");
+        }
+
+        protected void BttnCanc_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("main.aspx");
+        }
+
+        protected void BttnAanmAcc_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("accountAanmaken.aspx");
         }
     }
 }

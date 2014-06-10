@@ -7,6 +7,7 @@ namespace individueleOpdracht
 {
     abstract public class AccountClass
     {
+        private uint accountId; 
         private string naam;
         private DateTime geboorteDatum;
         private Geslacht geslacht;
@@ -18,6 +19,18 @@ namespace individueleOpdracht
         private AbbonementClass abbonement;
         private Modstatus modstatus;
         private List<ReviewClass> reviews;
+        private string wachtwoord;
+
+        //public AccountClass(string naam, DateTime geboorteDatum, Geslacht geslacht, AdresClass adres, string beroep,
+        //                        string opleiding, string email, string skype, AbbonementClass abbonement, Modstatus modstatus)
+        //{
+            
+        //}
+        public string Wachtwoord
+        {
+            get { return wachtwoord; }
+            set { wachtwoord = value; }
+        }
 
         public List<ReviewClass> Reviews
         {
@@ -94,20 +107,16 @@ namespace individueleOpdracht
             get { return naam; }
             set { naam = value; }
         }
-        
-        public void AanpassenWachtwoord(string oudWW, string nieuwWW)
-        {
 
+        public uint AccountId
+        {
+            get { return accountId; }
+            set { accountId = value; }
         }
 
-        public List<ReviewClass> Ophalenreviews()
-        {
-            return reviews;
-        }
+        public abstract void VerwijderenReview(ReviewClass review);
 
-        public void VerwijderenReview(ReviewClass review)
-        {
+        public abstract void AanpassenWachtwoord(string oudWw, string nieuwWw);
 
-        }
     }
 }

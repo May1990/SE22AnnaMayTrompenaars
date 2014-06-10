@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
-    <title>Social Media Event - File-sharing</title>
+    <title>Tweakers</title>
     <script src="jquery.js" type="text/javascript"></script>
     <link href="StyleSheetOntOpdracht.css" rel="stylesheet" type="text/css" />
 </head>
@@ -14,7 +14,11 @@
     <div id="container">
     <form id="form1" runat="server">
     
-        <div id="upperBlock"></div>
+        <div id="upperBlock">
+            <asp:Button ID="BttnMain" runat="server" Text="Ga naar begin pagina" CssClass="button" OnClick="BttnMain_Click" />
+            <asp:Button ID="BttnLogUit" runat="server" Text="Uitloggen" CssClass="button" OnClick="BttnLogUit_Click"/>
+            <asp:Button ID="BttnAccount" runat="server" Text="Inloggen" CssClass="button" OnClick="BttnAccount_Click" />
+        </div>
 
         <div id="centerBlock">
             
@@ -46,12 +50,12 @@
             <div id="validationsPr">
                 <asp:RequiredFieldValidator ID="ReqFldValSelect" runat="server" ErrorMessage="GeenItemGeselecteerd" CssClass="validationMakeUp" ValidationGroup="select" ControlToValidate="LstBxProduct">Selecteer een review in de lijst.</asp:RequiredFieldValidator>
             </div>
-            <asp:Button ID="BttnBkRev" runat="server" style="width: 146px; " Text="Bekijk review" ValidationGroup="select"/>
-            <asp:Button ID="BttnNwRev" runat="server" style="width: 145px" Text="Review toevoegen" ValidationGroup="select"/>
+            <asp:Button ID="BttnBkRev" runat="server" style="width: 146px; " Text="Bekijk review" ValidationGroup="select" OnClick="BttnBkRev_Click" />
+            <asp:Button ID="BttnNwRev" runat="server" style="width: 145px" Text="Review toevoegen" ValidationGroup="select" OnClick="BttnNwRev_Click" CausesValidation="False"/>
         </div>
 
         <div id="lowerBlock">
-            <div id="copyright"><h3>Copywrite 2014</h3></div>
+            <div id="copyright"><h3>Copyright 2014</h3></div>
         </div>
 
     </form>

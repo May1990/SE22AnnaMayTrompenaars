@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
-    <title>Social Media Event - File-sharing</title>
+    <title>Tweakers</title>
     <script src="jquery.js" type="text/javascript"></script>
     <link href="StyleSheetOntOpdracht.css" rel="stylesheet" type="text/css" />
 </head>
@@ -41,7 +41,7 @@
                                 <asp:RadioButton ID="RdBttnVrouw" runat="server" GroupName="geslacht" CssClass="radioButtons" Text="Vrouw" />
                             </td>
                             <td>
-                                <asp:RequiredFieldValidator ID="ReqFldValGeslacht" runat="server" ErrorMessage="GeenGeslachtIngevuld" ValidationGroup="CheckAccAanm" CssClass="validationMakeUp">Geef een geslacht aan.</asp:RequiredFieldValidator>
+                                
                             </td>
                         </tr>
 
@@ -50,11 +50,11 @@
                                 <p>Geboortedatum</p>
                             </td>
                             <td>
-                                <asp:TextBox ID="TxtBxGeboorte" runat="server" CssClass="TextboxAccAanm"></asp:TextBox>
+                                <asp:TextBox ID="TxtBxGeboorte" runat="server" CssClass="TextboxAccAanm" TextMode="Date"></asp:TextBox>
                             </td>
                             <td>
                                 <asp:RequiredFieldValidator ID="ReqFldValGeboorte" runat="server" ErrorMessage="GeenGeboortedatumIngevuld" ValidationGroup="CheckAccAanm" CssClass="validationMakeUp" Display="Dynamic" ControlToValidate="TxtBxGeboorte">Vul een geboortedatum in.</asp:RequiredFieldValidator>
-                                <asp:RegularExpressionValidator ID="RegExpValGeboorte" runat="server" ErrorMessage="VerkeerdeIndelingGeboorteDatum" ControlToValidate="TxtBxGeboorte" CssClass="validationMakeUp" Display="Dynamic">Geboortedatum niet correct ingevuld.</asp:RegularExpressionValidator>
+                                <asp:RegularExpressionValidator ID="RegExpValGeboorte" runat="server" ErrorMessage="" ControlToValidate="TxtBxGeboorte" CssClass="validationMakeUp" Display="Dynamic" ValidationExpression="dd-MM-yyyy"></asp:RegularExpressionValidator>
                             </td>
                         </tr>
 
@@ -139,10 +139,10 @@
                                 <p>Wachtwoord</p>
                             </td>
                             <td>
-                                <asp:TextBox ID="TxtBxWW" runat="server" CssClass="TextboxAccAanm"></asp:TextBox>
+                                <asp:TextBox ID="TxtBxWWNieuw" runat="server" CssClass="TextboxAccAanm"></asp:TextBox>
                             </td>
                             <td>
-                                <asp:RequiredFieldValidator ID="ReqFldValWWEen" runat="server" ErrorMessage="GeenWachtwoordIngevuld" ValidationGroup="CheckAccAanm" CssClass="validationMakeUp" ControlToValidate="TxtBxWW">Vul een wachtwoord in.</asp:RequiredFieldValidator>
+                                <asp:RequiredFieldValidator ID="ReqFldValWWEen" runat="server" ErrorMessage="GeenWachtwoordIngevuld" ValidationGroup="CheckAccAanm" CssClass="validationMakeUp" ControlToValidate="TxtBxWWNieuw" >Vul een wachtwoord in.</asp:RequiredFieldValidator>
                             </td>
                         </tr>
 
@@ -150,8 +150,8 @@
 
             </div>
 
-            <asp:Button ID="BttnAccAanm" runat="server" Text="Account aanmaken" ValidationGroup="CheckAccAanm"/>
-            <asp:Button ID="BttnCn" runat="server" Text="Cancel" />
+            <asp:Button ID="BttnAccAanm" runat="server" Text="Account aanmaken" ValidationGroup="CheckAccAanm" OnClick="BttnAccAanm_Click"/>
+            <asp:Button ID="BttnCn" runat="server" Text="Cancel" OnClick="BttnCn_Click" />
             
         </div>
 

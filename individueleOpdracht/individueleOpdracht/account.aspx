@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="utf-8">
-    <title>Social Media Event - File-sharing</title>
+    <title>Tweakers</title>
     <script src="jquery.js" type="text/javascript"></script>
     <link href="StyleSheetOntOpdracht.css" rel="stylesheet" type="text/css" />
 </head>
@@ -14,7 +14,11 @@
     <div id="container">
     <form id="form1" runat="server">
     
-        <div id="upperBlock"></div>
+        <div id="upperBlock">
+            <asp:Button ID="BttnMain" runat="server" Text="Ga naar begin pagina" />
+            <asp:Button ID="BttnLogUit" runat="server" Text="Uitloggen" CssClass="button" OnClick="BttnLogUit_Click"/>
+            <asp:Button ID="BttnAccount" runat="server" Text="Inloggen" CssClass="button" OnClick="BttnAccount_Click" />
+        </div>
 
         <div id="centerBlock">
             <div id="accountinfo">
@@ -66,13 +70,13 @@
                 <asp:Button ID="BttnAanpWW" runat="server" Text="Wachtwoord aanpassen" OnClick="BttnAanpWW_Click" />
 
                 <div id="textVoorBox"><p><b>Oud wachtwoord</b></p></div>
-                <asp:TextBox ID="TxtBxOudWW" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TxtBxOudWW" runat="server" TextMode="Password"></asp:TextBox>
                 <asp:RegularExpressionValidator ID="RegExpValOldWW" runat="server" ValidationGroup="wachtwoord" ErrorMessage="WachtwoordIncorrect" Height="20px" Width="145px" ControlToValidate="TxtBxOudWW">Wachtwoord incorrect.</asp:RegularExpressionValidator>
 
-                <asp:Button ID="BttnAanp" runat="server" Text="Aanpassen" ValidationGroup="wachtwoord" OnClick="BttnAanp_Click"/>
+                <asp:Button ID="BttnAanp" runat="server" Text="Aanpassen" ValidationGroup="wachtwoord" OnClick="BttnAanp_Click" Visible="False"/>
 
                 <div id="textVoorBoxNw"><p><b>Nieuw wachtwoord</b></p></div>
-                <asp:TextBox ID="TxtBxNieuwWW" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TxtBxNieuwWW" runat="server" TextMode="Password"></asp:TextBox>
                 <asp:RegularExpressionValidator ID="RegExpValNwWW" runat="server" ValidationGroup="wachtwoord" ErrorMessage="TeWeinigCharacters" Height="20px" Width="145px" ControlToValidate="TxtBxNieuwWW">Te weinig characters.</asp:RegularExpressionValidator>
 
             </div>

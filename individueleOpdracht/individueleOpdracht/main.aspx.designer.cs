@@ -22,6 +22,24 @@ namespace individueleOpdracht {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// BttnLogUit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BttnLogUit;
+        
+        /// <summary>
+        /// BttnAccount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BttnAccount;
+        
+        /// <summary>
         /// DDLstZoek control.
         /// </summary>
         /// <remarks>

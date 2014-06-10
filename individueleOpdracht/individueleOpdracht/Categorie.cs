@@ -2,9 +2,10 @@
 {
     public enum Categorie
     {
-        Camera,
-        HuishoudelijkeAparatuur,
-        Computer,
-        Laptop
+        Laptops,
+        LaptopDektopsEnServers,
+        Computers,
+        MobieleTelefoons,
+        TabletsEnTelefoons
     }
 }

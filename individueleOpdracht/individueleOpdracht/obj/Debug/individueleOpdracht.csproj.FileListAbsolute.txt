@@ -49,3 +49,4 @@ C:\Users\Anna-May\Dropbox\DBS21 Anna-May S24\individueleOpdracht\individueleOpdr
 C:\Users\Anna-May\Dropbox\DBS21 Anna-May S24\individueleOpdracht\individueleOpdracht\obj\Debug\individueleOpdracht.csprojResolveAssemblyReference.cache
 C:\Users\Anna-May\Dropbox\DBS21 Anna-May S24\individueleOpdracht\individueleOpdracht\obj\Debug\individueleOpdracht.dll
 C:\Users\Anna-May\Dropbox\DBS21 Anna-May S24\individueleOpdracht\individueleOpdracht\obj\Debug\individueleOpdracht.pdb
+C:\Users\Anna-May\Dropbox\DBS21 Anna-May S24\individueleOpdracht\individueleOpdracht\bin\Oracle.DataAccess.dll

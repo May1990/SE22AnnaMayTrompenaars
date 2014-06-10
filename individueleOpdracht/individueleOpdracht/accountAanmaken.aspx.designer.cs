@@ -58,15 +58,6 @@ namespace individueleOpdracht {
         protected global::System.Web.UI.WebControls.RadioButton RdBttnVrouw;
         
         /// <summary>
-        /// ReqFldValGeslacht control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqFldValGeslacht;
-        
-        /// <summary>
         /// TxtBxGeboorte control.
         /// </summary>
         /// <remarks>
@@ -193,13 +184,13 @@ namespace individueleOpdracht {
         protected global::System.Web.UI.WebControls.TextBox TxtBxSkype;
         
         /// <summary>
-        /// TxtBxWW control.
+        /// TxtBxWWNieuw control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtBxWW;
+        protected global::System.Web.UI.WebControls.TextBox TxtBxWWNieuw;
         
         /// <summary>
         /// ReqFldValWWEen control.

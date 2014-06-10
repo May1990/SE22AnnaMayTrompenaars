@@ -106,6 +106,13 @@ h3
     font-size:12px;
 }
 
+.button 
+{
+    width:135px;
+    height:20px;
+    float:left;
+}
+
 /*#region Upper*/
 /*bovenste gedeelde**********************************************************************************************/
 #upperBlock
@@ -114,6 +121,23 @@ h3
     height:140px;
     float:left;
     background-image:url('images/logo.png');
+}
+
+#BttnAccount 
+{
+    
+    margin: 101px 10px 10px 0px;
+}
+
+#BttnLogUit 
+{
+    
+    margin: 101px 10px 12px 357px;
+}
+
+#BttnMain 
+{
+    margin: 101px 10px 10px 0px; ;
 }
 
 /*#endregion Upper*/
@@ -149,13 +173,15 @@ h3
     margin:6px 0px 10px 0px;
 }
 
+
+
 /*#region product*/
 #productinfo
 {
     width:300px;
     height:220px;
     float:left;
-    margin:20px 0px 0px 373px;
+    margin:20px 322px 0px 373px;
 }
 
 #LstBxProduct
@@ -171,7 +197,7 @@ h3
     width:200px;
     height:20px;
     float:left;
-    margin:293px 0px 10px 0px;
+    margin:39px 0px 10px 0px;
 }
 
 #BttnBkRev
@@ -545,6 +571,13 @@ h3
 /*#endregion main*/
 
 /*#region reviewMaken*/
+.textBoxInhoudreview 
+{
+    font-family:Arial, Calibri;
+    font-size:12px;
+    padding: 0px;
+}
+
 #MkRev
 {
     width:700px;
@@ -617,7 +650,29 @@ h3
     margin: 0px 22px 10px 14px;
 }
 
-#accNaam
+.labelsReview
+{
+    width:455px;
+    height:15px;
+    float:left;
+    margin:10px 0px 10px 0px;
+
+    font-family:Arial, Calibri;
+    font-size:12px;
+}
+
+.textBoxenReview 
+{
+    width:455px;
+    height:50px;
+    float:left;
+    margin:0px 0px 10px 0px;
+
+    font-family:Arial, Calibri;
+    font-size:12px;
+}
+
+/*#LblAccComment
 {
     width:455px;
     height:15px;
@@ -625,13 +680,13 @@ h3
     margin:10px 0px 10px 0px;
 }
 
-#commentaarA
+#TxtBxAccComm
 {
     width:455px;
     height:50px;
     float:left;
     margin:0px 0px 10px 0px;
-}
+}*/
 
 /*#endregion review*/
 
