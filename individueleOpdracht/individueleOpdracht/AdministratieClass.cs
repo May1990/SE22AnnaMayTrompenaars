@@ -56,7 +56,7 @@ namespace individueleOpdracht
             
 
             Geslacht geslacht;
-            if (accListVanDb[2] == "n")
+            if (accListVanDb[3] == "n")
             {
                 geslacht = Geslacht.Man;
             }
@@ -65,10 +65,10 @@ namespace individueleOpdracht
                 geslacht = Geslacht.Vrouw;
             }
 
-            AdresClass adres = new AdresClass(accListVanDb[3], accListVanDb[4], accListVanDb[5]);
+            AdresClass adres = new AdresClass(accListVanDb[4], accListVanDb[5], accListVanDb[6]);
 
             AbbonementClass abbonement;
-            if (accListVanDb[10] == "Bannervrij")
+            if (accListVanDb[11] == "Bannervrij")
             {
                 abbonement = AbbonementClass.Bannervrij;
             }
@@ -90,10 +90,11 @@ namespace individueleOpdracht
             {
                 GeregistreerdeClass geregistreerde = new GeregistreerdeClass(Convert.ToUInt32(accListVanDb[0]),
                     accListVanDb[1], Convert.ToDateTime(accListVanDb[2]), geslacht,
-                    adres, accListVanDb[6], accListVanDb[7], accListVanDb[8], accListVanDb[9], abbonement,
+                    adres, accListVanDb[7], accListVanDb[8], accListVanDb[9], accListVanDb[10], abbonement,
                     Modstatus.Actief, wachtwoord);
 
                 Account = geregistreerde;
+                
             }
 
             return accountType;

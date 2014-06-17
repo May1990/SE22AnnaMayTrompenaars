@@ -1,0 +1,710 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+img
+{
+	border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    position: absolute;
+    top: 204px;
+    left: 109px;
+}
+
+html
+{
+	
+}
+
+body
+{
+    background-image:url(images/balkachtergrond.png);
+    background-repeat:repeat-x;
+    background-color:#eeefef;
+    height:auto;
+    margin:0px;
+}
+
+p
+{
+    font-family:Arial;
+    /*font-family:'Myriad Pro', Arial, Calibri;*/
+    font-size:12px;
+    margin:0px;
+
+}
+
+h1
+{
+    font-family:Arial;
+    /*font-family:'Myriad Pro', Arial, Calibri;*/
+    font-size:40px;
+    margin:0px;
+}
+
+h2
+{
+    font-family:Arial;
+    /*font-family:'Myriad Pro', Arial, Calibri;*/
+    font-size:20px;
+	margin:0px;
+}
+
+h3
+{
+    font-family:Arial;
+    /*font-family:'Myriad Pro', Arial, Calibri;*/
+    font-size:11px;
+	margin:0px;
+}
+
+#container
+{
+    width: 1000px;
+    height: 602px;
+    position: relative;
+    background-color: #ffffff;
+    margin: 0px auto;
+}
+
+#containerMain
+{
+    width: 1000px;
+    height: 797px;
+    position: relative;
+    background-color: #ffffff;
+    margin: 0px auto;
+}
+
+#form1
+{
+    width: 1000px;
+    height: auto;
+    float:left;
+    margin: 0px;
+}
+
+.validationMakeUp
+{
+    font-family:Arial, Calibri;
+    font-size:12px;
+    color:red;
+}
+
+.labels
+{
+    font-family:Arial, Calibri;
+    font-size:12px;
+    float:left;
+    margin-bottom: 11px;
+}
+
+.radioButtons
+{
+    font-family:Arial, Calibri;
+    font-size:12px;
+}
+
+.button 
+{
+    width:135px;
+    height:20px;
+    float:left;
+}
+
+/*#region Upper*/
+/*bovenste gedeelde**********************************************************************************************/
+#upperBlock
+{
+    width:1000px;
+    height:140px;
+    float:left;
+    background-image:url('images/logo.png');
+}
+
+#BttnAccount 
+{
+    
+    margin: 101px 10px 10px 0px;
+}
+
+#BttnLogUit 
+{
+    
+    margin: 101px 10px 12px 357px;
+}
+
+#BttnMain 
+{
+    margin: 101px 10px 10px 0px; ;
+}
+
+/*#endregion Upper*/
+
+/*#region Center*/
+#centerBlock
+{
+    width:1000px;
+    height:430px;
+    float:left;
+}
+
+#centerBlockMain
+{
+    width:1000px;
+    height:625px;
+    float:left;
+}
+
+#text
+{
+    width:150px;
+    height:21px;
+    float:left;
+    margin:0px 0px 10px 0px;
+}
+
+#textVoorBox
+{
+    width:150px;
+    height:21px;
+    float:left;
+    margin:6px 0px 10px 0px;
+}
+
+
+
+/*#region product*/
+#productinfo
+{
+    width:300px;
+    height:220px;
+    float:left;
+    margin:20px 322px 0px 373px;
+}
+
+#LstBxProduct
+{
+    width:743px;
+    height:130px;
+    float: left;
+    margin:20px 10px 0px 20px;
+}
+
+#validationsPr
+{
+    width:200px;
+    height:20px;
+    float:left;
+    margin:39px 0px 10px 0px;
+}
+
+#BttnBkRev
+{
+    width:145px;
+    height:20px;
+    float:left;
+    margin:0px 0px 10px 0px;
+}
+
+#BttnNwRev
+{
+    width:145px;
+    height:20px;
+    float:left;
+    margin:0px 0px 10px 0px;
+}
+/*#endregion product*/
+
+/*#region accountMaken*/
+.TextboxAccAanm
+{
+    height:17px;
+    width:300px;
+}
+
+#tblAccAanm
+{
+    margin:20px;
+}
+
+#BttnAccAanm
+{
+    width:135px;
+    height:20px;
+    float:left;
+    margin:28px 10px 0px 689px;
+}
+
+#BttnCn
+{
+    width:135px;
+    height:20px;
+    float:left;
+    margin:28px 0px 0px 0px;
+}
+
+/*#endregion accountMaken*/
+
+/*#region account*/
+#accountinfo
+{
+    width:500px;
+    height:305px;
+    float:left;
+    margin:20px 0px 15px 20px;
+}
+
+#LblNaam 
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblGeslacht
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblGebDatum
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblAdres
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblBeroep
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblOpleiding
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblEmail
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblSkype
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblAbbo
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#LblMStatus
+{
+    width:350px;
+    height:20px;
+    float:left;
+    margin:0px 0px 11px 0px;
+
+    font-family:Arial;
+    font-size:12px;
+}
+
+#reviewInfo
+{
+    width:250px;
+    height:400px;
+    float:right;
+    margin:20px 20px 0px 0px;
+}
+
+#LstBxEigRev
+{
+    width:250px;
+    height:280px;
+    float:right;
+    margin:0px;
+}
+
+#BttnKijkRev
+{
+    width:250px;
+    height:25px;
+    float:left;
+    margin: 10px 0px 0px 0px;
+}
+
+#BttnVerwRev
+{
+    width:250px;
+    height:25px;
+    float:left;
+    margin: 10px 0px 0px 0px;
+}
+
+#WWinfo
+{
+    width:700px;
+    height:80px;
+    margin:0px 0px 0px 20px;
+}
+
+#BttnAanpWW
+{
+    width:200px;
+    height:25px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+#BttnAanp
+{
+    width:200px;
+    height:25px;
+    float: left;
+}
+
+#TxtBxOudWW
+{
+    width:180px;
+    height:20px;
+    float:left;
+    margin:2px 0px 15px 0px;
+}
+
+#textVoorBoxNw
+{
+    width:150px;
+    height:21px;
+    float:left;
+    margin:6px 0px 10px 10px;
+}
+
+#TxtBxNieuwWW
+{
+    width:180px;
+    height:20px;
+    float:left;
+    margin:0px 0px 10px 0px;
+}
+
+#RegExpValOldWW
+{
+    margin:7px 0px 16px 2px;
+    float:right;
+    color:red;
+    font-family:Arial;
+    font-size:12px;
+}
+
+#RegExpValNwWW
+{
+    margin:10px 0px 10px 2px;
+    float:right;
+    color:red;
+    font-family:Arial;
+    font-size:12px;
+}
+/*#endregion account*/
+
+/*#region LogIn*/
+#logIn
+{
+    width:372px;
+    height:180px;
+    float:left;
+    margin:170px 310px 139px 310px;
+}
+
+#TxtBxEmail
+{
+    width:224px;
+    height:15px;
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+#TxtBxWW
+{
+    width:224px;
+    height:15px;
+    float:left;
+    margin: 0px 0px 10px 0px;
+}
+
+#BttnLogIn
+{
+    width:131px;
+    height:25px;
+    float:left;
+    margin: 0px 0px 0px 237px;
+}
+
+#BttnCanc
+{
+    width:131px;
+    height:25px;
+    float:left;
+    margin: 10px 0px 0px 237px;
+}
+
+#BttnAanmAcc
+{
+    width:131px;
+    height:25px;
+    float:left;
+    margin: 10px 0px 0px 237px;
+}
+/*#endregion LogIn*/
+
+/*#region main*/
+#DDLstZoek
+{
+    width:130px;
+    float:left;
+    margin:20px 10px 3px 120px;
+}
+
+#TxtBxZoek
+{
+    width:363px;
+    height: 17px;
+    float:left;
+    margin:20px 10px 3px 0px;
+}
+
+#BttnZoek
+{
+    width:125px;
+    height:25px;
+    float:left;
+    margin:20px 230px 3px 0px;
+}
+
+#validationMn
+{
+    width:363px;
+    height:20px;
+    float:left;
+    margin:0px 372px 0px 263px;
+}
+
+#LstBxResultaat
+{
+    width:960px;
+    height:500px;
+    float:left;
+    margin:0px 20px 10px 20px
+}
+
+#BttnSelecteer
+{
+    width:125px;
+    height:25px;
+    float:right;
+    margin:0px 20px 0px 10px;
+}
+
+#validationMain
+{
+    width:180px;
+    height:20px;
+    float:right;
+    margin:5px 0px 0px 0px;
+}
+/*#endregion main*/
+
+/*#region reviewMaken*/
+.textBoxInhoudreview 
+{
+    font-family:Arial, Calibri;
+    font-size:12px;
+    padding: 0px;
+}
+
+#MkRev
+{
+    width:700px;
+    height:580px;
+    float:left;
+    margin:20px 31px 20px 20px;
+}
+#TxtBxTitel
+{
+    width:250px;
+    height:20px;
+    float:left;
+    margin:2px 0px 14px 0px;
+}
+
+#TxtBxInhoud
+{
+    width:400px;
+    height:520px;
+    float:left;
+    margin:10px 0px 0px 0px;
+}
+
+#validations
+{
+    width:290px;
+    height:200px;
+    margin:200px 0px 0px 3px;
+}
+
+#BttnPlRev
+{
+    width:200px;
+    height:25px;
+    float: right;
+    margin: 540px 20px 10px 0px;
+}
+
+#BttnCan
+{
+    width:200px;
+    height:25px;
+    float: right;
+    margin: 0px 20px 10px 0px;
+}
+/*#endregion reviewMaken*/
+
+/*#region review*/
+#infoRev
+{
+    width:480px;
+    height:580px;
+    float:left;
+    margin:20px 20px 20px 20px;
+}
+
+#TxtBxComm
+{
+    width:450px;
+    height:85px;
+    float:left;
+    margin:20px 20px 10px 0px;
+}
+
+#BttnComm
+{
+    width:200px;
+    height:25px;
+    float: right;
+    margin: 0px 22px 10px 14px;
+}
+
+.labelsReview
+{
+    width:455px;
+    height:15px;
+    float:left;
+    margin:10px 0px 10px 0px;
+
+    font-family:Arial, Calibri;
+    font-size:12px;
+}
+
+.textBoxenReview 
+{
+    width:455px;
+    height:50px;
+    float:left;
+    margin:0px 0px 10px 0px;
+
+    font-family:Arial, Calibri;
+    font-size:12px;
+}
+
+/*#LblAccComment
+{
+    width:455px;
+    height:15px;
+    float:left;
+    margin:10px 0px 10px 0px;
+}
+
+#TxtBxAccComm
+{
+    width:455px;
+    height:50px;
+    float:left;
+    margin:0px 0px 10px 0px;
+}*/
+
+/*#endregion review*/
+
+/*#endregion Center*/
+
+/*#region Lower*/
+/*onderste gedeelte***********************************************************************************************/
+#lowerBlock
+{
+    width:1000px;
+    height:25px;
+	float:left;
+}
+
+#copyright
+{
+    width:auto;
+    height:auto;
+    margin-left:450px;
+}
+/*#endregion Lower*/

@@ -37,7 +37,7 @@ namespace individueleOpdracht
             LblTitel.Text = review.Titel;
             TxtBxInhoud.Text = review.Inhoud;
 
-            review.OphalenCommentaren(review.ReviewId);
+            review.OphalenCommentaren();
 
             List<CommentaarClass> commentaren = review.Commentaren;
             for (int i = 0; i < commentaren.Count; i++)

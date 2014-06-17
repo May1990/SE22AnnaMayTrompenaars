@@ -89,11 +89,11 @@ namespace individueleOpdracht
             data.ToevoegenCommentaar(Convert.ToInt32(ReviewId), Convert.ToInt32(account.AccountId), inhoud, Convert.ToInt32(Product.ProductId), commentId + 1);
         }
 
-        public void OphalenCommentaren(int reviewIdddd)
+        public void OphalenCommentaren()
         {
             Commentaren = new List<CommentaarClass>();
             List<List<string>> commentaarstrings = new List<List<string>>();
-            commentaarstrings = data.OphalenCommentaren(reviewIdddd);
+            commentaarstrings = data.OphalenCommentaren(reviewId);
 
             foreach (List<string> commentaarstring in commentaarstrings)
             {

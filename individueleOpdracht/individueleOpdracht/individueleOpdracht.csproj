@@ -169,6 +169,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
     <Content Include="ClassDiagram1.cd" />
+    <None Include="Properties\PublishProfiles\SE22AnnaMayTrompenaarsZelfstandigeOpdracht.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="product.aspx" />
     <Content Include="review.aspx" />

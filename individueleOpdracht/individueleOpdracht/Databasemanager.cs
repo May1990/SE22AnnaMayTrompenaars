@@ -4,7 +4,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-using System.Data.OracleClient;
+
 
 namespace individueleOpdracht
 {
@@ -16,20 +16,36 @@ namespace individueleOpdracht
     using System.Threading.Tasks;
     using Oracle.DataAccess.Client;
     using Oracle.DataAccess.Types;
+    using System.Configuration;
+    //using System.Data.OracleClient;
+    using System.Web.Providers.Entities;
 
     public class Databasemanager
     {
         private OracleConnection connectie;
 
+        //private string Pcn = "dbi296086";
+        //private string wachtwoord = "L79567vuYu";
+        //public string DataSource { get; private set; }
+
         public Databasemanager()
         {
-            this.connectie = new OracleConnection(System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
+            //if (System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString !=
+            //    null)
+            //{
+                this.connectie = new OracleConnection(System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString);
+            //}
+            //else
+            //{
+            //    this.connectie.ConnectionString =
+            //        string.Format("User Id= {0};Password={1};Data Source=//192.168.15.50:1521/fhictora;", Pcn , wachtwoord , DataSource);
+            //}
+            
         }
 
         public List<string> Inloggen(string email, string wachtwoord)
         {
             connectie.Open();
-
             string query = "SELECT * FROM AACCOUNT WHERE EMAIL= :EMAIL AND ACCOUNTPASSWORD = :PASSWORD";
 
             OracleCommand command = new OracleCommand(query, connectie);
